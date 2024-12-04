@@ -1,0 +1,5 @@
+@include('partials.navbar')
+@include('partials.ofertas')
+@include('partials.seleccion')
+@include('partials.topventas')
+@include('partials.footer')
