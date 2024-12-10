@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { lusitana, inter, fuenteX } from '@/app/ui/fonts';
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,9 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>{children}</body>
-      <p className={`${lusitana.className}`}>Hola mundo</p>
-      <p className={`${fuenteX.className}`}>Hola mundo</p>
+      <body>{children}</body>
     </html>
   );
 }
