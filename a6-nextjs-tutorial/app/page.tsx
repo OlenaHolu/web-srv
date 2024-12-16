@@ -10,7 +10,6 @@ export default function Home() {
       <EstadoFactura estado="facturado" />
       <p className={`${inter.className} antialiased`}>Chapter 3 - Font 1</p>
       <p className={`${lusitana.className} antialiased`}>Chapter 3 - Font 2</p>
-      <p className={`${fuenteX.className} antialiased`}>Chapter 3 - Font 3</p>
       
       <Image 
         src="/2.jpg"
