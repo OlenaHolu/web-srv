@@ -1,6 +1,6 @@
 import Image from "next/image";
 import EstadoFactura from "./ui/EstadoFactura";
-import { lusitana, inter, fuenteX } from '@/app/ui/fonts';
+import { lusitana, inter } from '@/app/ui/fonts';
 export default function Home() {
   return (
     <main>
